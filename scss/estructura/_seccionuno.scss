@@ -1,0 +1,27 @@
+
+
+.seccion1{
+    .seccion1__contenedor{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        min-height: 600px;
+    }
+    .seccion1__photo{
+        background-image: url(../images/pr-5.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        background-attachment:fixed;
+    }
+    .seccion1__title1{
+        font-size: 3.85rem;
+	font-weight: bold;
+	text-transform: uppercase;
+    text-align: center; 
+	color: $colorPrincipal;
+	text-shadow: 4px 1px 4px  #0b0c0b, 4px 1px 8px  $colorEnlace;
+    padding-top: .2em;
+    }
+}

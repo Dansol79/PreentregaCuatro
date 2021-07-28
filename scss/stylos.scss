@@ -1,0 +1,23 @@
+@import 'colores/colors';
+@import 'navegacion/barranav';
+@import 'responsive/media';
+@import 'estructura/seccionuno';
+@import 'estructura/secciondos';
+@import 'responsive/movil';
+@import 'responsive/mediasecdos';
+@import 'estructura/secciontres';
+@import 'responsive/movilsectres';
+@import 'animaciones/animation';
+@import 'pie/piedepagina';
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:$colorBody;
+    font-family:'Roboto', sans-serif;
+
+}

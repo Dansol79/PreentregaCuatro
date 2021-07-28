@@ -1,0 +1,54 @@
+
+
+@media(max-width:780px){
+
+    header{
+        flex-direction: row-reverse;
+        
+    }
+    .nav{
+
+        label{
+        margin-top: 1em;
+        display:block;
+        }
+
+        #btn-menu{
+             &:checked ~ .nav__contenedor{
+            margin: 0;
+             }
+        }
+    }
+    .nav__contenedor{
+        position: absolute;
+        background-color:$colorResponsive;
+        width: 60%;
+        margin-left: -65%;
+        transition: all 35ms;
+        z-index: 2;
+       
+    }
+    .nav__menu{
+
+        flex-direction: column;
+        li{
+            border-top: 1px solid $colorSecundario;
+            
+            & :hover{
+                background-color:$colorTerciario;
+            }
+        }
+
+    }
+
+    .menu__enlaces{
+        display: block;
+        font-size: 1rem;
+        padding: 20px;
+        color:$colorPrincipal;
+        text-decoration: none;
+    }
+
+    
+}
+

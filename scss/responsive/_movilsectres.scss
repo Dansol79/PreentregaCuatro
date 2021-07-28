@@ -1,0 +1,20 @@
+
+@media screen and (max-width: 320px){
+    .seccion3{
+       .seccion3__titleAn{
+        font-size: 1rem;
+        text-align: center;
+        text-transform: uppercase;
+        color: $colorSecundario;
+        animation-name: titleAn;
+        animation-iteration-count: infinite;
+        animation-delay: 1s;
+        animation-duration: 6s;
+        }
+
+        .seccion3__contendVideo{
+        width: 100%;
+        margin-top: 2em;
+        }
+    }
+}
